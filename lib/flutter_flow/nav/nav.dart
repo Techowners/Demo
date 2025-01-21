@@ -185,6 +185,11 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
               name: 'Onboarding',
               path: 'preferences-onboarding',
               builder: (context, params) => OnboardingWidget(),
+            ),
+            FFRoute(
+              name: 'SplashCopy',
+              path: 'splashCopy',
+              builder: (context, params) => SplashCopyWidget(),
             )
           ].map((r) => r.toRoute(appStateNotifier)).toList(),
         ),

@@ -22,3 +22,5 @@ export '/pages/profile/edit_preferences/edit_preferences_widget.dart'
     show EditPreferencesWidget;
 export '/pages/onboarding/onboarding/onboarding_widget.dart'
     show OnboardingWidget;
+export '/pages/onboarding/splash_copy/splash_copy_widget.dart'
+    show SplashCopyWidget;
